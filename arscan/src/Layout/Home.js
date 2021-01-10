@@ -1,16 +1,15 @@
-import React, { Component } from 'react'  
-  
-export class Home extends Component {  
-    render() {  
-        return (  
-            <div>  
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="email" />
-				<input type="submit" value="submit" />
-			</form>
-            </div>  
-        )  
-    }  
-}  
-  
-export default Home  
+import React from 'react';
+import { useHistory } from "react-router-dom";
+
+function Home() {
+  const history = useHistory();
+  const navigateTo = () => history.push('scanner');//eg.history.push('/login');
+
+  return (
+   <div>
+   <button onClick={navigateTo} type="button">Start Scanning</button>
+   </div>
+  );
+}
+
+export default Home;
