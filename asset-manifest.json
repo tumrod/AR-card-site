@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AR-card-site/static/css/main.e651f2c7.chunk.css",
+    "main.js": "/AR-card-site/static/js/main.08a16d2c.chunk.js",
+    "main.js.map": "/AR-card-site/static/js/main.08a16d2c.chunk.js.map",
+    "runtime-main.js": "/AR-card-site/static/js/runtime-main.cf4e25e4.js",
+    "runtime-main.js.map": "/AR-card-site/static/js/runtime-main.cf4e25e4.js.map",
+    "static/js/2.3e80f665.chunk.js": "/AR-card-site/static/js/2.3e80f665.chunk.js",
+    "static/js/2.3e80f665.chunk.js.map": "/AR-card-site/static/js/2.3e80f665.chunk.js.map",
+    "static/js/3.e71270ec.chunk.js": "/AR-card-site/static/js/3.e71270ec.chunk.js",
+    "static/js/3.e71270ec.chunk.js.map": "/AR-card-site/static/js/3.e71270ec.chunk.js.map",
+    "index.html": "/AR-card-site/index.html",
+    "static/css/main.e651f2c7.chunk.css.map": "/AR-card-site/static/css/main.e651f2c7.chunk.css.map",
+    "static/js/2.3e80f665.chunk.js.LICENSE.txt": "/AR-card-site/static/js/2.3e80f665.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf4e25e4.js",
+    "static/js/2.3e80f665.chunk.js",
+    "static/css/main.e651f2c7.chunk.css",
+    "static/js/main.08a16d2c.chunk.js"
+  ]
+}
