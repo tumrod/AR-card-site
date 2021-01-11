@@ -1,0 +1,30 @@
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+
+</head>
+  <body>
+<a-scene>
+ <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+    <!--<a-assets>
+        <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
+    </a-assets>
+
+    <a-box src="#boxTexture" position="0 2 -5" rotation="0 45 45" scale="2 2 2"
+         animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 200; loop: true"></a-box>-->
+
+        <a-assets>
+            <video src="https://cors-anywhere.herokuapp.com/https://www.w3schools.com/html/mov_bbb.mp4"
+                preload="auto" id="vid" response-type="arraybuffer" loop
+                crossorigin webkit-playsinline autoplay muted playsinline>
+            </video>
+        </a-assets>
+
+            <a-video src="#vid" width="30" height="17" position="0 0 -20" crossorigin="anonymous">
+            </a-video>
+
+</a-scene>
+
+  </body>
+</html>
