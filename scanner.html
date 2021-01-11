@@ -83,25 +83,24 @@
         renderer='antialias: true; alpha: true; precision: mediump;'
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
 
-        <a-assets>
+  <a-assets>
+    <video id="penguin-sledding" autoplay loop="true" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/tumrod/arscan/dev/public/assets/videos/test-vid.mp4"></video>
+  </a-assets>
+
+
+        <!--<a-assets>
             <video src="https://cors-anywhere.herokuapp.com/https://www.w3schools.com/html/mov_bbb.mp4"
                 preload="auto" id="vid" response-type="arraybuffer" loop
                 crossorigin webkit-playsinline autoplay muted playsinline>
             </video>
-        </a-assets>
+        </a-assets>-->
 
         <a-nft
             videohandler
             type='nft' url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/data/dataNFT/pinball'
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         >
-            <a-video
-                src="#vid"
-                position='50 150 -100'
-                width='300'
-                height='175'
-                >
-            </a-video>
+          <a-video src="#penguin-sledding" width="32" height="18" position="0 0 -20" crossorigin="anonymous"></a-video>
         </a-nft>
     <a-entity camera></a-entity>
   </a-scene>
